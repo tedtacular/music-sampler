@@ -1,0 +1,40 @@
+body {
+    background: #ADD5F7;
+    color: ##000;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 100%;
+}
+
+p {
+  margin: 20px;
+}
+
+#album1 {
+  background: #16193B ;
+  width: 100%;
+  padding: 20px;
+  color: #ffffff;
+}
+#album2 {
+  background: #35478C ;
+  width: 100%;
+  padding: 20px;
+  color: #ffffff;
+}
+#album3 {
+  background: #4E7AC7 ;
+  width: 100%;
+  padding: 20px;
+  color: #ffffff;
+}
+#album4 {
+  background: #7FB2F0 ;
+  width: 100%;
+  padding: 20px;
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+
+
+}

@@ -7,7 +7,6 @@
 
     <title>Practice with Javascript</title>
 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 
 </head>
@@ -16,31 +15,60 @@
   <h1> Kylie Minogue </h1>
   <img src="images/minogue.jpg" alt="kylie minogue">
   <p>image credit to <a href="https://www.flickr.com/photos/elhormiguerotv/5261431712/">El Hormiguero TV</a></p>
+  <p>This page is by Theo Chiong in dedication to Kylie Minogue for Intro to Web Apps.</p>
 
-  <img src="images/aphrodite.png" alt="aphrodite album cover">
+<section id="album1">
+<img id="aphroditealbum" src="images/aphrodite.png" class="albumCover" alt="aphrodite album cover">
+<div id="aphrodite">
     <audio id="aphrodite" controls preload="auto">
     	<source src="audio/all the lovers mp3.mp3" type="audio/mp3">
     	<source src="audio/all the lovers ogg.ogg" type="audio/ogg">
     </audio>
+</div>
+<div id="aphroditetext">
+    <p>All The Lovers<p>
+</div>
+<section>
 
-  <img src="images/x.png" alt="x album cover">
+<section id="album2">
+<img id="xalbum" src="images/x.png" class="albumCover" alt="x album cover">
+<div id="x">
     <audio id="x" controls preload="auto">
       <source src="audio/wow mp3.mp3" type="audio/mp3">
       <source src="audio/wow ogg.ogg" type="audio/ogg">
     </audio>
+</div>
+<div id="xtext">
+    <p>Wow<p>
+</div>
+<section>
 
-  <img src="images/fever.png" alt="fever album cover">
+<section id="album3">
+<img id="feveralbum" src="images/fever.png" class="albumCover" alt="fever album cover">
+<div id="fever">
     <audio id="fever" controls preload="auto">
     	<source src="audio/cant get you out of my head mp3.mp3" type="audio/mp3">
     	<source src="audio/cant get you out of my head ogg.ogg" type="audio/ogg">
     </audio>
+</div>
+<div id="fevertext">
+    <p>Can't Get You Out Of My Head<p>
+</div>
+<section>
 
-  <img src="images/kiss me once.png" alt="kiss me once album cover">
+<section id="album4">
+<img id="kissalbum" src="images/kiss me once.png" class="albumCover" alt="kiss me once album cover">
+<div id="kiss">
     <audio id="kiss me once" controls preload="auto">
     	<source src="audio/into the blue mp3.mp3" type="audio/mp3">
     	<source src="audio/into the blue ogg.ogg" type="audio/ogg">
     </audio>
+<div id="kisstext">
+    <p>Into The Blue<p>
+</div>
+<section>
 
-<footer> This page is by Theo Chiong in dedication to Kylie Minogue for Intro to Web Apps. </footer>
+    <script src="js/jquery.min.js"></script>
+      <script src="js/minogue.js"></script>
 </body>
 </html>
